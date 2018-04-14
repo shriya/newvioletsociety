@@ -261,13 +261,12 @@ a:focus {
     padding-top: 100px;
 }
 
-#about {
+#about, #contact {
     width: 100%;
-    padding: 120px 0;
+    padding: 60px 0;
     color: #fff;
     min-height: 600px;
     max-height: 1000px;
-    background: url(../img/snarkyviolet.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -376,8 +375,3 @@ body {
     padding: 5px;
 }
 
-#about {
-    padding-top: 80px;
-    padding-bottom: -20px;
-    max-height: 100px;
-}
