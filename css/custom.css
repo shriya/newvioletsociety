@@ -1,0 +1,54 @@
+/********************/
+/********************/
+/* CUSTOM OVERRIDES */
+/********************/
+/********************/
+
+#tinyviolet {
+    width: 26px;
+    height: 26px;
+    padding: 5px;
+}
+
+.btn, a {
+  color: #8F80AF;
+  border-color: #8F80AF;
+}
+
+.content-section {
+  width: 100%;
+  padding: 40px 0;
+  color: #fff;
+  min-height: 240px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+#about, #contact {
+  background-color: #000;
+}
+
+#image {
+  padding: 0px;
+}
+
+#more {
+  background-color: #472c77;
+}
+
+#more .btn {
+  color: #FFF;
+  border-color: #FFF;
+}
+
+#more .btn:hover {
+  color: #000;
+}
+
+@media(min-width:767px) {
+    .download-section {
+        padding: 100px 0;
+    }
+}
