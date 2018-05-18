@@ -52,3 +52,9 @@
         padding: 100px 0;
     }
 }
+
+.btn-apply {
+  border-color: #472c77;
+  background-color: #fff;
+  color: #472c77;
+}
