@@ -32,6 +32,11 @@
 
 #image {
   padding: 0px;
+  background: url(../img/geode.jpg) no-repeat bottom center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
 
 #more {
