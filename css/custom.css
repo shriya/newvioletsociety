@@ -26,17 +26,21 @@
   -o-background-size: cover;
 }
 
-#about, #contact {
+#about, #contact, #team {
   background-color: #000;
 }
 
-#image {
+.images {
   padding: 0px;
   background: url(../img/geode.jpg) no-repeat bottom center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.person-block {
+  margin: 10px 0 20px 0;
 }
 
 #more {
