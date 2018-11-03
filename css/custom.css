@@ -56,6 +56,16 @@
   color: #000;
 }
 
+#partners {
+  background-color: #fff;
+  color: #472c77;
+}
+
+.pics {
+  margin: 0 0 20px 0;
+}
+
+
 @media(min-width:767px) {
     .download-section {
         padding: 100px 0;
