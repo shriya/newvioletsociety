@@ -1,4 +1,4 @@
-/********************/
+content-image/********************/
 /********************/
 /* CUSTOM OVERRIDES */
 /********************/
@@ -7,7 +7,7 @@
 #tinyviolet {
     width: 26px;
     height: 26px;
-    padding: 5px;
+    padding-right: 10px;
 }
 
 .btn, a {
@@ -19,6 +19,15 @@
   width: 100%;
   padding: 40px 0;
   color: #fff;
+  min-height: 240px;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.content-image {
+  width: 100%;
   min-height: 240px;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -76,4 +85,17 @@
   border-color: #472c77;
   background-color: #fff;
   color: #472c77;
+}
+
+.quote {
+  font-style: italic;
+}
+
+.testimonials {
+  color: #8F80AF;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.3;
 }
