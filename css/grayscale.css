@@ -153,6 +153,14 @@ a:focus {
     -o-background-size: cover;
 }
 
+.intro-uv {
+    background: url(../img/uv-background.jpg) no-repeat bottom center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
 .intro-hackathon {
     background: url(../img/purplegeode.png) no-repeat bottom center scroll;
     -webkit-background-size: cover;
@@ -186,6 +194,11 @@ a:focus {
     .intro {
         height: 100%;
         padding: 0;
+    }
+
+    .intro-uv {
+        height:  100%;
+        padding:  0;
     }
 
     .intro .intro-body .brand-heading {
